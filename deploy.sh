@@ -2,6 +2,7 @@
 set -e
 DEPLOY_FLAG=false
 ROLLBACK_FLAG=false
+SIMULATE_FAILURE=false
 for arg in "$@"
 do
     case $arg in
