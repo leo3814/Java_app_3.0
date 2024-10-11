@@ -30,5 +30,6 @@ fi
 if $ROLLBACK_FLAG; then
     echo "Starting rollback..."
     # Add your rollback commands here
+    git reset --hard HEAD^
     echo "Rollback completed successfully."
 fi
